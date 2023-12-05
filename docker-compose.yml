@@ -1,48 +1,22 @@
 version: "2"
 
 services:
-  # https://hub.docker.com/r/nadoo/glider
   # https://github.com/nadoo/glider
   glider:
-    image: nadoo/glider:0.16
-    command: -config /shared/glider.conf
-    ports:
-      - 8443:8443
-    volumes:
-      - glider-config:/shared:ro
-
-  glider-config:
-    image: alpine:3.18
-    volumes:
-      - glider-config:/shared
-    restart: "no"
-    environment:
-      PROXY_SCHEME: socks5
-      PROXY_USER:
-      PROXY_PASS:
-      PROXY_HOST: 0.0.0.0
-      PROXY_PORT: 8443
-    entrypoint:
-      - /bin/sh
-      - -c
-    command:
-      - |
-        echo verbose > /shared/glider.conf
-
-        if [ -n "${PROXY_USER}" ] && [ -n "${PROXY_PASS}" ]; then
-          echo listen=${PROXY_SCHEME}://${PROXY_USER}:${PROXY_PASS}@${PROXY_HOST}:${PROXY_PORT} >> /shared/glider.conf
-        else
-          echo listen=${PROXY_SCHEME}://${PROXY_HOST}:${PROXY_PORT} >> /shared/glider.conf
-        fi
+    build: glider
+    network_mode: host
 
   # https://hub.docker.com/r/tailscale/tailscale
   tailscale:
     image: tailscale/tailscale:v1.52.0
+    restart: "on-failure"
     environment:
       TS_STATE_DIR: "/var/lib/tailscale"
       TS_SOCKET: "/var/run/tailscale/tailscaled.sock"
       TS_EXTRA_ARGS: "--reset --accept-routes --advertise-exit-node"
       # TS_USERSPACE: "false"
+      TS_AUTH_ONCE: "false"
+      # TS_HOSTNAME: exit-node
     network_mode: host
     cap_add:
       - NET_ADMIN
@@ -60,21 +34,18 @@ services:
       - -c
     command:
       - |
-        # load the kernel module if it exists
-        if [ "${TS_USERSPACE}" != "true" ]; then
-          if modprobe wireguard 2>/dev/null
-          then
-            modinfo wireguard || true
-            export TS_USERSPACE="false"
-          else
-            export TS_USERSPACE="true"
-          fi
+        case "${DISABLE}" in
+          [Tt][Rr][Uu][Ee]|[Yy][Ee][Ss]|[Oo][Nn]|[1])
+            exit 0
+            ;;
+        esac
+        if modprobe wireguard 2>/dev/null
+        then
+          modinfo wireguard || true
         fi
         mkdir -p /dev/net
         [ ! -c /dev/net/tun ] && mknod /dev/net/tun c 10 200
-
         /usr/local/bin/containerboot
 
 volumes:
   tailscale-state: {}
-  glider-config: {}
