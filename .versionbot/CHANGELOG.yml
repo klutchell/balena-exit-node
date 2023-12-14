@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update product-os/flowzone action to v5.15.11
+      hash: 283db809c3ae54640e580c3f5b8c01b543840a1a
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 0.0.6
+  title: ""
+  date: 2023-12-14T21:38:13.115Z
+- commits:
     - subject: Update alpine Docker tag to v3.19
       hash: 791d668d0006e70644097c4b764aa15c86488cf4
       body: ""
