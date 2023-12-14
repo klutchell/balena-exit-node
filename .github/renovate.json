@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "config:recommended",
+    "config:best-practices",
+    ":automergeStableNonMajor",
+    ":automergePatch",
+    ":automergeDigest"
+  ],
+  "commitBody": "Change-type: patch",
+  "minor": {
+    "automerge": true
+  },
+  "pinDigest": {
+    "automerge": true
+  }
+}
