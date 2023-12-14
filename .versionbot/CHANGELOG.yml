@@ -1,0 +1,34 @@
+- commits:
+    - subject: Deploy to balena with Flowzone
+      hash: 8b11ffce062d1e13463c546ad26415f114c9a590
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+    - subject: Clean up tailscale environment settings
+      hash: 5e32e295299bcd3ab0cf59282929912e3f97871e
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+    - subject: Build glider from source and run custom entrypoint
+      hash: d25d48268a19e2ddeb25c85ac3256d8cf636d82b
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+  version: 0.0.2
+  title: ""
+  date: 2023-12-14T18:42:13.885Z
