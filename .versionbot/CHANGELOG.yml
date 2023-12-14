@@ -1,4 +1,18 @@
 - commits:
+    - subject: Add renovate config that includes a change-type
+      hash: b1a9a146f4a3f9c414098ddc8fc9d7c9ff19c15f
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+  version: 0.0.3
+  title: ""
+  date: 2023-12-14T20:24:46.723Z
+- commits:
     - subject: Deploy to balena with Flowzone
       hash: 8b11ffce062d1e13463c546ad26415f114c9a590
       body: ""
