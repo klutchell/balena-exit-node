@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update tailscale/tailscale Docker tag to v1.54.1
+      hash: 1ed1d3744d3f10081f78ae2492359ea77d2612cf
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 0.0.4
+  title: ""
+  date: 2023-12-14T20:36:56.934Z
+- commits:
     - subject: Add renovate config that includes a change-type
       hash: b1a9a146f4a3f9c414098ddc8fc9d7c9ff19c15f
       body: ""
