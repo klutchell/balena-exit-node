@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update alpine Docker tag to v3.19
+      hash: 791d668d0006e70644097c4b764aa15c86488cf4
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 0.0.5
+  title: ""
+  date: 2023-12-14T21:11:49.833Z
+- commits:
     - subject: Update tailscale/tailscale Docker tag to v1.54.1
       hash: 1ed1d3744d3f10081f78ae2492359ea77d2612cf
       body: ""
