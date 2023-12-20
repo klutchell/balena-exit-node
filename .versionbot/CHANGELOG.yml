@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update golang:1.21-alpine Docker digest to 4db4aac
+      hash: 4ee4d194f772b9cbca968d5dedf5a13d123d8a52
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 0.0.21
+  title: ""
+  date: 2023-12-20T22:35:54.643Z
+- commits:
     - subject: Update golang:1.21-alpine Docker digest to 52c12a3
       hash: fd25a9478214b583f108fd637280112c126f8d04
       body: ""
