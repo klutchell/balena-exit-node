@@ -1,4 +1,16 @@
 - commits:
+    - subject: Remove deprecated Flowzone setting
+      hash: e0b84c88f677b0856691a5b72a1d3d8881ca421e
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Kyle Harding
+      nested: []
+  version: 0.0.42
+  title: ""
+  date: 2024-01-11T21:16:02.330Z
+- commits:
     - subject: Update product-os/flowzone action to v6.0.13
       hash: afca4ddf8e0612014421daabead0c640b8605da9
       body: ""
