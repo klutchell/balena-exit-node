@@ -1,6 +1,6 @@
 # https://github.com/nadoo/glider/blob/master/Dockerfile
 
-FROM golang:1.21-alpine@sha256:fd78f2fb1e49bcf343079bbbb851c936a18fc694df993cbddaa24ace0cc724c5 AS build
+FROM golang:1.21-alpine@sha256:059d021e01cb9335b7b882ab57a1051bae2dd76cf9961d93cb8691e9bea9fc04 AS build
 
 SHELL ["/bin/ash", "-eo", "pipefail", "-c"]
 
