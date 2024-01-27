@@ -17,7 +17,7 @@ RUN curl -fsSL https://github.com/nadoo/glider/archive/refs/tags/v0.16.3.tar.gz 
 
 RUN go build -v -ldflags "-s -w"
 
-FROM alpine:3.19@sha256:b6e36db784908bbd0d74c93caaa8598b46cb7463275296d2d2cfca4f31aeb5d0
+FROM alpine:3.19@sha256:c5b1261d6d3e43071626931fc004f70149baeba2c8ec672bd4f27761f8e1ad6b
 
 COPY --from=build /src/glider /app/
 
