@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update golang Docker tag to v1.22
+      hash: c80b34a4665cb417df5cf2b05b3d302381397507
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 0.0.86
+  title: ""
+  date: 2024-02-07T14:36:53.131Z
+- commits:
     - subject: Update golang:1.21-alpine Docker digest to 0ff68fa
       hash: eb59ae3306a0ccd5086143558fe88551662c92bc
       body: ""
