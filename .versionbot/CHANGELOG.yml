@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update product-os/flowzone action to v9
+      hash: f1ad241396a7bf4fa279559acc27441a64f825b6
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 0.0.87
+  title: ""
+  date: 2024-02-08T14:35:03.784Z
+- commits:
     - subject: Update golang Docker tag to v1.22
       hash: c80b34a4665cb417df5cf2b05b3d302381397507
       body: ""
