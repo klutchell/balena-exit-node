@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update golang:1.22-alpine Docker digest to fa4add5
+      hash: 3346791cd6698a1e85d4f5e9f437d1f0f3832544
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 0.0.143
+  title: ""
+  date: 2024-03-16T00:49:58.973Z
+- commits:
     - subject: Update tailscale/tailscale Docker tag to v1.62.0
       hash: 7b3127103f05b761c6d780d0e3d317f9b7031fa0
       body: ""
