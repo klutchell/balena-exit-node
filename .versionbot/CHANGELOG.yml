@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update golang:1.22-alpine Docker digest to cdc86d9
+      hash: 295583d72ef75e0026a7f0fd6f0fe4af1aa3771e
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 0.0.164
+  title: ""
+  date: 2024-04-04T00:49:46.493Z
+- commits:
     - subject: Update product-os/flowzone action to v10.2.0
       hash: 0b2803d436f39553ebfeb82dff20f01a42c936e4
       body: ""
