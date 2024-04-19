@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update tailscale/tailscale Docker tag to v1.64.2
+      hash: 4a0c41c5a6257b7a86074635cba5812893a48fdf
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 0.0.178
+  title: ""
+  date: 2024-04-19T13:23:11.725Z
+- commits:
     - subject: Update product-os/flowzone action to v11.2.11
       hash: 6381c9e044922cea46b7133df181503bd6c590e6
       body: ""
