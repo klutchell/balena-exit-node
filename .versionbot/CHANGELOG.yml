@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update alpine Docker tag to v3.20
+      hash: 12d5ca3e5bd29ad1182e2c61ea960fd952bb51c3
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 0.0.207
+  title: ""
+  date: 2024-05-27T14:35:55.439Z
+- commits:
     - subject: Update golang:1.22-alpine Docker digest to b8ded51
       hash: ca8d2d26a0507f9c5890d9a4b62daec9b523d669
       body: ""
