@@ -10,7 +10,7 @@ RUN apk --no-cache add curl git
 WORKDIR /src
 
 # renovate: datasource=github-releases depName=nadoo/glider
-ARG GLIDER_VERSION=v0.16.3
+ARG GLIDER_VERSION=v0.16.4
 
 RUN curl -fsSL https://github.com/nadoo/glider/archive/refs/tags/v0.16.3.tar.gz | \
     tar -xz --strip-components=1
