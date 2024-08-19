@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update dependency nadoo/glider to v0.16.4
+      hash: 858d6c8a65b5249aaff0f7ead51511705a845648
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 0.0.236
+  title: ""
+  date: 2024-08-19T14:07:07.500Z
+- commits:
     - subject: Update golang Docker tag to v1.23
       hash: 85d4d7092f7deebe81ce853deafdaef7146a50cc
       body: ""
