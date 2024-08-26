@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update product-os/flowzone action to v17.4.27
+      hash: e266631a749d571295aa9b44b65733920eae0c4e
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Renovate Bot
+      nested: []
+  version: 0.0.237
+  title: ""
+  date: 2024-08-26T13:08:54.667Z
+- commits:
     - subject: Update dependency nadoo/glider to v0.16.4
       hash: 858d6c8a65b5249aaff0f7ead51511705a845648
       body: ""
