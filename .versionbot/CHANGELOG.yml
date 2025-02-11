@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update alpine Docker tag to v3.21
+      hash: 030a048ea7db242be9f267aa684a1b7a044946ed
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: klutchell-renovate[bot]
+      nested: []
+  version: 0.0.249
+  title: ""
+  date: 2025-02-11T16:11:40.529Z
+- commits:
     - subject: Update all digest updates
       hash: 66a8e800702731b9814fd4e18110caa07461aa4c
       body: ""
