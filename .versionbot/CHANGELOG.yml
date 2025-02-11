@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update all digest updates
+      hash: 66a8e800702731b9814fd4e18110caa07461aa4c
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: klutchell-renovate[bot]
+      nested: []
+  version: 0.0.248
+  title: ""
+  date: 2025-02-11T15:41:03.264Z
+- commits:
     - subject: Update tailscale/tailscale Docker tag to v1.80.0
       hash: 6df13037512dc8f1d7946dccb421acb9954269f8
       body: ""
