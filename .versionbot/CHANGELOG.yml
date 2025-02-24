@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update product-os/flowzone action to v19.9.32
+      hash: effb6cccad4f7485c510fd6aa32d689447063f19
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: klutchell-renovate[bot]
+      nested: []
+  version: 0.0.253
+  title: ""
+  date: 2025-02-24T05:15:32.072Z
+- commits:
     - subject: Update alpine:3.21 Docker digest to a8560b3
       hash: 0236deb0e342659b9fa68131cfd3f0891a073a43
       body: ""
