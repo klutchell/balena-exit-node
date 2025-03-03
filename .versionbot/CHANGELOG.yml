@@ -1,4 +1,16 @@
 - commits:
+    - subject: Switch to GitHub App Installation token authentication
+      hash: 1bd13c394805dd48cb209cc2412d2106ebd53f80
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Kyle Harding
+      nested: []
+  version: 0.0.256
+  title: ""
+  date: 2025-03-03T18:19:42.390Z
+- commits:
     - subject: Update product-os/flowzone action to v19.11.2
       hash: a29f5bbf98a253405c46bf96ae360399a0753821
       body: ""
