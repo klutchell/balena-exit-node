@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update tailscale/tailscale Docker tag to v1.80.3
+      hash: 8406ac7d5c6175963c8ab8c4c2019ab6e172639e
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: klutchell-renovate[bot]
+      nested: []
+  version: 0.0.257
+  title: ""
+  date: 2025-03-10T04:14:11.339Z
+- commits:
     - subject: Switch to GitHub App Installation token authentication
       hash: 1bd13c394805dd48cb209cc2412d2106ebd53f80
       body: ""
