@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update tailscale/tailscale Docker tag to v1.82.0
+      hash: dd6bfb85b56234a7cf7baba7589343c39d4ede42
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: klutchell-renovate[bot]
+      nested: []
+  version: 0.0.266
+  title: ""
+  date: 2025-04-07T04:47:14.294Z
+- commits:
     - subject: Update product-os/flowzone action to v19.13.20
       hash: 1e3b5bb5197d9e486604bec666991830d4bb75c2
       body: ""
