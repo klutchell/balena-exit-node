@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update golang:1.24-alpine Docker digest to 7772cb5
+      hash: e1625e325911fad9d0598c9be385a6fe58ab9464
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: klutchell-renovate[bot]
+      nested: []
+  version: 0.0.267
+  title: ""
+  date: 2025-04-07T05:11:51.199Z
+- commits:
     - subject: Update tailscale/tailscale Docker tag to v1.82.0
       hash: dd6bfb85b56234a7cf7baba7589343c39d4ede42
       body: ""
