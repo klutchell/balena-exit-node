@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update product-os/flowzone action to v19.13.29
+      hash: f40fd4b893b1ecc76237c8b439b3b265eacf007a
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: klutchell-renovate[bot]
+      nested: []
+  version: 0.0.269
+  title: ""
+  date: 2025-04-21T04:17:22.264Z
+- commits:
     - subject: Update product-os/flowzone action to v19.13.24
       hash: cb6e909504a4404ada105cbd7e85a726f6327352
       body: ""
