@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update golang:1.24-alpine Docker digest to ef18ee7
+      hash: 8c39e156a6c237c851951992f8a549a087ba75e0
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: klutchell-renovate[bot]
+      nested: []
+  version: 0.1.3
+  title: ""
+  date: 2025-05-12T18:12:12.449Z
+- commits:
     - subject: Update product-os/flowzone action to v19.14.4
       hash: 7a78a2e2388e31c8eb30c27a94e118706c42dc5c
       body: ""
