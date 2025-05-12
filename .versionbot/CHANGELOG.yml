@@ -1,4 +1,18 @@
 - commits:
+    - subject: Switch to balena-tailscale block
+      hash: fb91835dc11bd65d7d8b6da150df304d4c11d14c
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+  version: 0.1.0
+  title: ""
+  date: 2025-05-12T16:45:24.775Z
+- commits:
     - subject: Update product-os/flowzone action to v19.13.39
       hash: 2d875b1adfbc836db6d9296125b0dcdf71c72a15
       body: ""
