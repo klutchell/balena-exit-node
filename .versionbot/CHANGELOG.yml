@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update balena-tailscale to v1.84.0-rev3
+      hash: bc9040bfaf09863f36cedcc08a883e84cf2d2c20
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: klutchell-renovate[bot]
+      nested: []
+  version: 0.1.11
+  title: ""
+  date: 2025-06-02T05:45:15.854Z
+- commits:
     - subject: Update alpine Docker tag to v3.22
       hash: 9916031a1c09e864260bd8381334bee5b89a4a27
       body: ""
