@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update alpine Docker tag to v3.22
+      hash: 9916031a1c09e864260bd8381334bee5b89a4a27
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: klutchell-renovate[bot]
+      nested: []
+  version: 0.1.10
+  title: ""
+  date: 2025-06-02T05:15:54.017Z
+- commits:
     - subject: Update product-os/flowzone action to v20
       hash: c0ac62be38435805684d778ac522e20604638632
       body: ""
