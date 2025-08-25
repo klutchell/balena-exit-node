@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update product-os/flowzone action to v21.0.7
+      hash: df88a5c741a5c8fa6cef12104dc73a66e6590639
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: klutchell-renovate[bot]
+      nested: []
+  version: 0.1.40
+  title: ""
+  date: 2025-08-25T04:19:24.549Z
+- commits:
     - subject: Update golang Docker tag to v1.25
       hash: 8793352915dda00dbb5927de03ecf6c265987b6a
       body: ""
