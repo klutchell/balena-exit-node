@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update balena-tailscale to v1.90.8
+      hash: 0bb7790970eee98b926cb8ba508400b94281fb15
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: klutchell-renovate[bot]
+      nested: []
+  version: 0.1.70
+  title: ""
+  date: 2025-11-24T06:51:39.541Z
+- commits:
     - subject: Update product-os/flowzone action to v22.6.3
       hash: a4bbb68af68b2490e4eba9ebd4aae32888fb9403
       body: ""
