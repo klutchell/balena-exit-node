@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update golang:1.25-alpine Docker digest to d9b2e14
+      hash: 4754803c936319d4e27ea75036711eb27ff24f72
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: klutchell-renovate[bot]
+      nested: []
+  version: 0.1.87
+  title: ""
+  date: 2026-01-19T06:18:01.678Z
+- commits:
     - subject: Update balena-tailscale to v1.92.5-rev1
       hash: e2783e5db7eee4290d9a579810fdeceb6e21a8a5
       body: ""
