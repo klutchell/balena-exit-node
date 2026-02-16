@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update balena-tailscale to v1.94.1-rev4
+      hash: 2ce6117f359399bdc9647faa6a5a09012acc9716
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: klutchell-renovate[bot]
+      nested: []
+  version: 0.1.99
+  title: ""
+  date: 2026-02-16T06:33:14.809Z
+- commits:
     - subject: Update golang Docker tag to v1.26
       hash: 18f3a12c8db16b00712574d6d113840e4275cfa5
       body: ""
