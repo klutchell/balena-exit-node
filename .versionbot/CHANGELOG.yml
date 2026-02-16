@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update product-os/flowzone action to v22.8.9
+      hash: d6f8397af2be0726d353dd5ba6bf987b3be2d690
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: klutchell-renovate[bot]
+      nested: []
+  version: 0.1.97
+  title: ""
+  date: 2026-02-16T05:21:08.196Z
+- commits:
     - subject: Update golang:1.25-alpine Docker digest to f6751d8
       hash: c03b2a4b0015b6b2bb1c92596e96e85320761293
       body: ""
